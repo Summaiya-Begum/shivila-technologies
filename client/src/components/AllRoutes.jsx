@@ -6,6 +6,7 @@ import Profile from './Profile'
 import Home from './Home'
 import PrivateRoute from './PrivateRoute'
 import Navbar from './Navbar'
+import PagenotFound from './PagenotFound'
 
 
 
@@ -29,7 +30,7 @@ export default function AllRoutes() {
         } />
 
         <Route path='/edit-profile' element={<EditProfileModal />} />
-        <Route path="/*" element={<Navigate to="/page-not-found" />} />
+        <Route path="/*" element={<PagenotFound/>} />
       </Routes>
     </div>
   )
