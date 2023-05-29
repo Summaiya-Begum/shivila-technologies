@@ -1,0 +1,79 @@
+.main-signup-container {
+    max-width: 430px;
+    margin: 20px auto;
+    padding: 10px 40px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.file-input-container {
+    margin-bottom: 6px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 6px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.signup-profile-container {
+    border-radius: 100%;
+    height: 22vh;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background: white;
+
+}
+.preview-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  
+}
+
+
+.already-have-account-box {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .already-have-account-box a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .already-have-account-box a:hover {
+    text-decoration: underline;
+  }
+  
